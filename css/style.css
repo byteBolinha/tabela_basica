@@ -1,0 +1,60 @@
+/* importes */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: "Exo 2", sans-serif;
+}
+main {
+    display: flex;
+    max-width: 90%;
+    word-break: break-word;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table {
+    border-collapse: collapse; 
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+th{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgba(0, 0, 0, 0.726);
+    padding-right: 15px;
+}
+td:nth-child(even){
+    background-color: rgb(139, 137, 137);
+}
+.name {
+    text-align: left;
+    padding-right: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.name span {
+    display: inline-block;
+    min-width: 20px; 
+    text-align: right; 
+    margin-right: 20px; 
+    font-weight: bold;
+}
+.name-top {
+    color: #006400;
+}
+.name-middle {
+    color: #1E90FF;
+}
+.name-bottom {
+    color: #8B0000;
+}
